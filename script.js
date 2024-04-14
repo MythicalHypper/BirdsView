@@ -29,27 +29,3 @@ $(document).ready(() => {
 
 
 })
-
-
-// function mHover(Element, name, icon) {
-//     console.log(`mHover: ${Element.id}, ${name}, ${icon}`)
-//     Element.innerHTML = `<i class="fa-solid fa-${icon} fa-bounce"></i><a class="nav-link active" aria-current="page" href="#">${name}</a>`
-//     setTimeout(() => {Element.innerHTML = `<i class="fa-solid fa-${icon}"></i><a class="nav-link active" aria-current="page" href="#">${name}</a>`}, 1000)
-    
-// }
-
-// function mLeave(Element, name, icon) {
-//     Element.innerHTML = `<i class="fa-solid fa-${icon}"></i><a class="nav-link active" aria-current="page" href="#">${name}</a>`
-// }
-
-// function navbarLoad() {
-//     // const AKTUALITĀTES = document.getElementById("AKTUALITĀTES")
-//     // mHover($("#AKTUALITĀTES"), 'AKTUALITĀTES', 'earth-americas')
-//     // mLeave($("#AKTUALITĀTES"), 'AKTUALITĀTES', 'earth-americas')
-// //     mLeave();
-//     // mLeave();
-// //     mLeave();
-// //     mLeave();
-// }
-
-// 

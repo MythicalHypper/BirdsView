@@ -7,24 +7,7 @@
     <script src="https://kit.fontawesome.com/edf707d013.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="script.js"></script>
-    <style>
-        body {
-            background: #d9d9d9;
-            max-width: 960px;
-            padding-top: 65px;
-        }
-        i {
-            margin-top: 22;
-            margin-right: 15;
-            font-size: 25;
-            text-align: center;
-            text-justify: auto;
-        }
-        #logotips {
-            border-radius:10px;
-            height: 100px;
-        }
-    </style>
+    <link href="style.css" rel="stylesheet" >
 </head>
 <body>
     <nav class="navbar bg-body-tertiary fixed-top">
@@ -37,13 +20,13 @@
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <img src="./logo.jpeg" alt="Logo" height="60" id="logotips" >
+                    <img src="./fotos/logo.jpeg" alt="Logo" height="60" id="logotips" >
                     <h1 class="p-3">Bird's view</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body d-flex flex-column align-content-stretch">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 h1">
-                        <li class="nav-item d-flex col" id="AKTUALITĀTES">  <!-- border border-danger -->
+                        <li class="nav-item d-flex col" id="AKTUALITĀTES">
                             <i class="fa-solid fa-earth-americas"></i><a class="nav-link active" aria-current="page" href="#">AKTUALITĀTES</a>
                         </li>
                         <li class="nav-item d-flex col" id="CEĻOJUMI">
@@ -58,29 +41,41 @@
                         <li class="nav-item d-flex col" id="PAR-MUMS">
                             <i class="fa-solid fa-user"></i><a class="nav-link" href="#">PAR MUMS</a>
                         </li>
-                        <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                        <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                    </li> -->
-                    </ul>
-                    <!-- <form class="d-flex mt-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
                 </div>
             </div>
         </div>
     </nav>
     <h1 id="headdin">Ia mahe</h1>
+    <div class="container ms-2 mt-5">
+    <h2>Nedēļa Itālijā</h2>
+    <img src="./fotos/Italija/venice2.jpg" alt="Venice">
+    <div id="carouselItalija" class="carousel slide m-4">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselItalija" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselItalija" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselItalija" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./fotos/Italija/Italija00.jpg" class="rounded w-100 d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./fotos/Italija/Italija01.jpg" class="rounded mx-auto d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./fotos/Italija/Italija02.jpg" class="rounded mx-auto d-block" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselItalija" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselItalija" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

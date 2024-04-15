@@ -1,33 +1,41 @@
 body {
-    background: #d9d9d9;
-    max-width: 960px;
-    padding-top: 65px;
+  background: #d9d9d9;
+  max-width: 960px;
+  padding-top: 65px;
 }
+
 i {
-    margin-top: 22;
-    margin-right: 15;
-    font-size: 25;
-    text-align: center;
-    text-justify: auto;
+  margin-top: 22;
+  margin-right: 15;
+  font-size: 25;
+  text-align: center;
+  text-justify: auto;
 }
+
 #logotips {
-    border-radius:10px;
-    height: 100px;
+  border-radius: 10px;
+  height: 100px;
 }
+
 .carousel-inner {
-    height: 0;
-    padding-bottom: 50%; 
-  }
-  
-  .carousel-item {
-    position: absolute !important; 
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  
-  .carousel-item img {
-    height: 100%;
-    object-fit: cover; /* or 'contain' if you want stretch instead of crop */
-  }
+  height: 0;
+  padding-bottom: 50%;
+}
+
+.carousel-item {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+  /* or 'contain' if you want stretch instead of crop */
+}
+
+#Ned-Italija-range {
+  width: 60%;
+}

@@ -43,6 +43,6 @@ i {
   width: 60%;
 }
 
-#content {
-  margin: auto;
+.container {
+  max-width:max-content;
 }

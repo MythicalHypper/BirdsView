@@ -1,6 +1,9 @@
 body {
   background: #d9d9d9;
-  max-width: 960px;
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center;
+  min-height:100vh;
   padding-top: 65px;
 }
 

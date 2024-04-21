@@ -1,15 +1,15 @@
 body {
   background: #d9d9d9;
-  display:flex; 
+  /* display:flex; 
   flex-direction:column; 
-  justify-content:center;
-  min-height:100vh;
+  justify-content:center; */
+  min-height: 100vh;
   padding-top: 65px;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 html {
-  max-width: 100%;
+  /* max-width: 100%; */
   overflow-x: hidden;
 }
 
@@ -26,23 +26,23 @@ i {
   height: 100px;
 }
 
-.carousel-inner {
-  height: 0;
-  padding-bottom: 50%;
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
 }
 
-.carousel-item {
-  position: absolute !important;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.crslCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.carousel-item img {
-  height: 100%;
-  object-fit: cover;
+.carousel .carousel-item img {
+  width: 100%;
+  object-fit: contain;
   /* or 'contain' if you want stretch instead of crop */
+  object-position: center;
+  height: 50vh;
 }
 
 #Ned-Italija-range {

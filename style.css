@@ -57,3 +57,8 @@ ul {
 #Ned-Italija-range {
   width: 60%;
 }
+
+#saturs {
+  height: auto;
+  overflow-y: scroll,hidden;
+}

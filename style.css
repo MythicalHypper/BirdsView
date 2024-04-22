@@ -62,3 +62,14 @@ ul {
   height: auto;
   overflow-y: scroll,hidden;
 }
+
+#sticky {
+  position: fixed;
+  background: #eee;
+  margin-left: 85%;
+  /* overflow-x: hidden; */
+}
+
+#sticky a, #stick nav {
+  max-width: 250px;
+}

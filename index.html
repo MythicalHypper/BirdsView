@@ -19,6 +19,7 @@
         aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <span class="navbar-text display-6" id="Citats-text">“Caur putna skatījumu iepazīsi pasaules greznību”</span>
       <a class="navbar-brand" href="#">Bird's view</a>
       <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
@@ -41,25 +42,38 @@
             <li class="nav-item d-flex col" id="PAR-MUMS">
               <i class="fa-solid fa-user"></i><a class="nav-link" href="#">PAR MUMS</a>
             </li>
+            <li>
+              <p>
+                <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseStilaMaiņa"
+                  aria-expanded="false" aria-controls="collapseStilaMaiņa">
+                  Toggle Stila maiņa
+                </button>
+              </p>
+            </li>
         </div>
       </div>
     </div>
   </nav> <!-- </Navigācija>-->
-  <div class="container-fluid text-center ms-3 mt-5"> <!-- <Stila maiņa>-->
+  <div class="container-fluid text-center my-3 mt-5"> <!-- <Stila maiņa>-->
     <div class="row row-cols-1">
-      <p class="display-4">"[Citāts atrodas šeit]"</p>
-      <div class="col">
-        <label for="Ned-Italija-range" class="form-label">Title Lielums: 1-6</label>
+      <div class="collapse show my-3" id="collapseStilaMaiņa">
+        <div class="col mb-3">
+          <label for="Ned-Italija-range" class="form-label">Title Lielums: 1-6</label>
+        </div>
+        <div class="col my-3">
+          <input type="range" class="form-range" min="1" max="6" id="Ned-Italija-range" value="4">
+        </div>
+        <div class="col my-3">
+          <button type="button" class="btn btn-secondary" id="Ned-Italija-btn">Stila maiņa</button>
+        </div>
+        <div class="col mt-3">
+          <button type="button" class="btn btn-secondary" id="Citats-btn">Citāts</button>
+        </div>
       </div>
-      <div class="col">
-        <input type="range" class="form-range" min="1" max="6" id="Ned-Italija-range" value="4">
-      </div>
-      <div class="col">
-        <button type="button" class="btn btn-secondary" id="Ned-Italija-btn">Stila maiņa</button>
-      </div>
+
     </div>
   </div> <!-- </Stila maiņa>-->
-  <div class="container-fluid text-center ms-3 mt-5"> <!-- <Nedēļa Itālijā> -->
+  <div class="container-fluid text-center"> <!-- <Nedēļa Itālijā> -->
     <div class="row"> <!-- <Nedēļa Itālijā_Pic> -->
       <div class="col-12">
         <hr>
@@ -83,8 +97,10 @@
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselItalia1" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselItalia1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselItalia1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselItalia1" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselItalia1" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -133,8 +149,10 @@
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselItalia2" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselItalia2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselItalia2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselItalia2" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselItalia2" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -183,8 +201,10 @@
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselItalia3" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselItalia3" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselItalia3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselItalia3" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselItalia3" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -233,8 +253,10 @@
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselItalia4" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselItalia4" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselItalia4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselItalia4" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselItalia4" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -283,8 +305,10 @@
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselItalia5" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselItalia5" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselItalia5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselItalia5" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselItalia5" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -333,8 +357,10 @@
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselItalia6" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselItalia6" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselItalia6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselItalia6" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselItalia6" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -365,7 +391,8 @@
               Apmeklēsim ''Peggy Guggenheim'' kolekciju, lai redzētu mūsdienu mākslu vēsturiskā vidē.
             </li>
             <li>
-              Izmantosim ''vaporetto'' transportu (pasažieru laivas) uz krāsaino Burano salu - pazīstamu ar savām mežģīņu darināšanas tradīcijām.
+              Izmantosim ''vaporetto'' transportu (pasažieru laivas) uz krāsaino Burano salu - pazīstamu ar savām
+              mežģīņu darināšanas tradīcijām.
             </li>
             <li>
               Izbaudīsim romantiskas vakariņas, ar skatu uz Venēcijas lagūnu.
@@ -383,8 +410,10 @@
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselItalia7" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselItalia7" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselItalia7" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselItalia7" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselItalia7" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -443,10 +472,24 @@
               Atrodamies : Jūrmalas iela 17, Piņķi, Babītes pagasts, Mārupes novads, LV-2107
             </li>
           </ul>
-
         </div>
       </div>
     </div> <!-- </Kontakti> -->
+    <div class="row"> <!-- <PAR MUMS> -->
+      <div class="col-12">
+        <div class="m-2 text-start">
+          <h6 class="display-6 m-4">PAR MUMS :</h6>
+          <p>Esam “Birds view” komanda, kas aicina jauniešus, vecuma grupā no 16-20, apceļot kopā pasauli un iepazīt tās
+            skaistumu. Esam pirmais ceļojuma pakalpojums Latvijā, kas piedāvā ceļošanu par cenām, kas nav ''kosmiski''
+            dārgas, kā arī plašu klāstu ceļojumus, kas aizraus ikkatra elpu. Uzrunāsim ikvienu, jo piedāvājam arī
+            ceļojumus, kuru laikā ir iespēja nopelnīt naudu dzīvošanai, tādejādi atbalstīsim vietējos uzņēmumus un tos
+            cilvēkus, kuriem papildus darba rokas ir nepieciešamas. Gūsi pieredzi, kas paliks uz visu mūžu, kļūsi vairāk
+            patstāvīgs, kā arī komunikācijas līmenis paaugstināsies, kas dzīvē Tev pašam veicinās lielāku labklājības
+            pakāpi. Sagaršosi kultūras garšu un priecēsi acis ar neaizmirstamiem dabas, arhitektūras skatiem. </p>
+        </div>
+      </div>
+    </div> <!-- </PAR MUMS> -->
+
   </div> <!-- </Nedēļa Itālijā> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

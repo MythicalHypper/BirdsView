@@ -4,8 +4,13 @@ body {
   flex-direction:column; 
   justify-content:center; */
   min-height: 100vh;
+  min-width: 1000px;
   padding-top: 65px;
   /* max-width: 100%; */
+}
+
+nav {
+  min-width: 1000px;
 }
 
 html {

@@ -50,4 +50,11 @@ $(document).ready(() => {
     $("#Ned-Italija-range").change(
         function () { changeV(this.value) }
     )
+
+    $("#Citats-btn").click(
+        function () {
+            $("#Citats-text").toggle()
+        }
+    )
+
 })

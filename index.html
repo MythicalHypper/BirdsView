@@ -55,18 +55,8 @@
     </div>
   </nav> <!-- </Navigācija>-->
 
-
-
-
-  <aside>
-    <div class="container mt-4" id="sticky">
-      
-    </div>
-  </aside>
-
-  <!-- <main data-bs-spy="scroll" data-bs-target="#satura-toc" tabindex="0"> -->
   <div id="saturs" class="row">
-    <div class="col-10">
+    <div class="col-10" data-bs-spy="scroll" data-bs-target="#satura-toc" tabindex="0">
       <div class="container-fluid text-center my-3 mt-5"> <!-- <Stila maiņa>-->
         <div class="row row-cols-1">
           <div class="collapse show my-3" id="collapseStilaMaiņa">
@@ -534,8 +524,7 @@
 
       </div> <!-- </Nedēļa Itālijā> -->
     </div>
-    </div>
-    <div class="col-2">
+    <div class="col-2 mt-4" id="sticky">
       <div class="collapse show my-3" id="collapseStilaMaiņa">
         <div class="row"> <!-- .justify-content-md-end -->
           <div class="col-1">
@@ -564,7 +553,7 @@
       </div>
       
     </div>
-  <!-- </main> -->
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

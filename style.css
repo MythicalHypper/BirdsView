@@ -53,35 +53,50 @@ ul {
   height: 50vh;
 }
 
-#Ned-Italija-range {
-  width: 60%;
+.figure img {
+  width: 100%;
+  height: 80vh;
 }
 
 #saturs {
-  height:100%;
+  height: 100%;
   overflow-y: scroll;
 }
 
-#sticky {
-  z-index: 2;
-  position: fixed;
-  background: #efeded; /* #efeded */
-  margin-left: 83%;
-  border-radius: 10px;
-  width:325px;
+#TOC-Fixed {
+  width: 325px;
+  max-height: 50%;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
-#sticky a,
-#sticky nav {
+#TOC-main {
+  position: fixed;
+  margin-left: 83vw;
+}
+
+.TOC-Cont {
+  z-index: 2;
+  border-radius: 10px;
+  width: 325px;
+  max-height: 43vh;
+  background: #efeded;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#TOC-main a,
+#TOC-main nav {
   width: 250px;
   color: #4c4c80;
+  margin-top: 5px;
 }
 
-#sticky li {
+#TOC-main li {
   margin-top: 15px;
 }
 
-#sticky .active {
+#TOC-main .active {
   background-color: #4c4c80;
   color: white;
 }

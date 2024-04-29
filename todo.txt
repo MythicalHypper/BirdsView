@@ -1,11 +1,9 @@
-viss ir ceļojumi nevis AKTUALITĀTES
-
 salikt visus ceļojumus
 
 par mums
 
-ANKETA
-
 for navbar mby add .active on hover for a border similar to TOC
 
 add icons everywhere, piemēram, PAR MUMS un KONTAKTI
+
+add dropdown opcijas prieks toc pa nedelam

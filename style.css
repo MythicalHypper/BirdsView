@@ -59,18 +59,20 @@ ul {
 }
 
 #saturs {
-  height: auto;
-  overflow-y: scroll,hidden;
+  height:100%;
+  overflow-y: scroll;
 }
 
 #sticky {
- z-index: 2;
+  z-index: 2;
   position: fixed;
   background: #eee;
-  margin-left: 85%;
-  /* overflow-x: hidden; */
+  margin-left: 84%;
+  border-radius: 10px;
+  width:305px;
 }
 
-#sticky a, #stick nav {
-  max-width: 250px;
+#sticky a,
+#stick nav {
+  width: 250px;
 }

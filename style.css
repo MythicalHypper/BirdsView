@@ -82,7 +82,7 @@ ul {
   max-height: 43vh;
   background: #efeded;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 #TOC-main a,

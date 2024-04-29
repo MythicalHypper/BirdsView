@@ -66,13 +66,23 @@ ul {
 #sticky {
   z-index: 2;
   position: fixed;
-  background: #eee;
-  margin-left: 84%;
+  background: #efeded; /* #efeded */
+  margin-left: 83%;
   border-radius: 10px;
-  width:305px;
+  width:320px;
 }
 
 #sticky a,
-#stick nav {
+#sticky nav {
   width: 250px;
+  color: #4c4c80;
+}
+
+#sticky li {
+  margin-top: 15px;
+}
+
+#sticky .active {
+  background-color: #4c4c80;
+  color: white;
 }

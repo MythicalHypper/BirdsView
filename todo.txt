@@ -6,7 +6,9 @@ for navbar mby add .active on hover for a border similar to TOC
 
 add icons everywhere, piemēram, PAR MUMS un KONTAKTI
 
-add dropdown opcijas prieks toc pa nedelam
+Celojumi - visu celojumu izvēles
+
+aktualitātes - jaunākais no fbook soc media account; bildes no pasākumiem; tuvākie celojumi, u.tml.
 
 
 

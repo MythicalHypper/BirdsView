@@ -50,12 +50,12 @@ ul {
   object-fit: contain;
   /* or 'contain' if you want stretch instead of crop */
   object-position: center;
-  height: 50vh;
+  max-height: 50vh;
 }
 
 .figure img {
   width: 100%;
-  height: 80vh;
+  max-height: 60vh;
 }
 
 #saturs {

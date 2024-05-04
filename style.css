@@ -25,6 +25,12 @@ html {
   text-justify: auto;
 }
 
+.AbtUs i{
+  margin-top: 2px;
+  margin-right: 5px;
+  color: #4c4c80;
+}
+
 #logotips {
   border-radius: 10px;
   height: 100px;

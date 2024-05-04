@@ -2,8 +2,6 @@ salikt visus ceļojumus
 
 par mums
 
-for navbar mby add .active on hover for a border similar to TOC
-
 add icons everywhere, piemēram, PAR MUMS un KONTAKTI
 
 Celojumi - visu celojumu izvēles

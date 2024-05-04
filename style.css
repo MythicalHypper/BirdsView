@@ -59,6 +59,13 @@ ul {
   max-height: 50vh;
 }
 
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+  /* or 'contain' if you want stretch instead of crop */
+  max-height: 10vh;
+}
+
 .figure img {
   width: 100%;
   max-height: 60vh;

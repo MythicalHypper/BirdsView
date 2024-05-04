@@ -125,3 +125,17 @@ ul {
   background-color: #4c4c80;
   color: white;
 }
+
+.Btn-mekletGrupu {
+  background-color: #5c5ca2;
+  border: none;
+  color: white;
+}
+
+.Btn-mekletGrupu:hover {
+  background-color: #4c4c80;
+}
+
+.Btn-mekletGrupu:focus {
+  background-color: #4c4c80;
+}
